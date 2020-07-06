@@ -13,6 +13,7 @@
 		F0203DC524B372B000BAD253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0203DC424B372B000BAD253 /* Assets.xcassets */; };
 		F0203DC824B372B000BAD253 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0203DC724B372B000BAD253 /* Preview Assets.xcassets */; };
 		F0203DCB24B372B000BAD253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0203DC924B372B000BAD253 /* LaunchScreen.storyboard */; };
+		F0203DD724B384DA00BAD253 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0203DD624B384DA00BAD253 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F0203DC724B372B000BAD253 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0203DCA24B372B000BAD253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0203DCC24B372B000BAD253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0203DD624B384DA00BAD253 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F0203DBE24B372AE00BAD253 /* AppDelegate.swift */,
 				F0203DC024B372AE00BAD253 /* SceneDelegate.swift */,
 				F0203DC224B372AE00BAD253 /* ContentView.swift */,
+				F0203DD624B384DA00BAD253 /* ImagePicker.swift */,
 				F0203DC424B372B000BAD253 /* Assets.xcassets */,
 				F0203DC924B372B000BAD253 /* LaunchScreen.storyboard */,
 				F0203DCC24B372B000BAD253 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0203DBF24B372AE00BAD253 /* AppDelegate.swift in Sources */,
+				F0203DD724B384DA00BAD253 /* ImagePicker.swift in Sources */,
 				F0203DC124B372AE00BAD253 /* SceneDelegate.swift in Sources */,
 				F0203DC324B372AE00BAD253 /* ContentView.swift in Sources */,
 			);
