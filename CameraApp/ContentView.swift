@@ -31,7 +31,7 @@ struct ContentView: View {
             }
             //カメラ画面を表示するコード
             if isPicking {
-                ImagePicker()
+                ImagePicker(image: $image, isPicking: $isPicking)
                     .edgesIgnoringSafeArea(.all)
                     .transition(.move(edge: .bottom))
                     .animation(.easeInOut)
